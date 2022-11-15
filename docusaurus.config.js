@@ -65,7 +65,7 @@ const config = {
           },
           {to: '/', label: 'Nav 2', position: 'left'},
           {
-            href: 'https://github.com/devopsdayschi/dodchi-docs',
+            href: 'https://github.com/devopsdayschicago/dodchi-docs',
             label: 'GitHub',
             position: 'right',
           },
