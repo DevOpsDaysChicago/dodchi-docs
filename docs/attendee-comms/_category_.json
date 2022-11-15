@@ -1,0 +1,8 @@
+{
+  "label": "Attendee Communication",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "comms with attendees"
+  }
+}
