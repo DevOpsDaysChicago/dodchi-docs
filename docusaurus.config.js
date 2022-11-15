@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'devopsdays Chicago Runbooks',
   tagline: 'Documentation for running the devopsdays Chicago event',
-  url: 'https://dodchi-docs.netlify.app',
+  url: 'https://docs.devopsdayschi.org',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
