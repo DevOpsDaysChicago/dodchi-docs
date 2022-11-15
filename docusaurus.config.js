@@ -10,7 +10,7 @@ const config = {
   tagline: 'Documentation for running the devopsdays Chicago event',
   url: 'https://dodchi-docs.netlify.app',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
