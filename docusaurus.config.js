@@ -61,11 +61,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Nav 1',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/', label: 'Nav 2', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/devopsdayschi/dodchi-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -75,11 +75,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'TBD',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'XXX',
+                to: '/',
               },
             ],
           },
@@ -114,7 +114,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} devopsdays Chicago Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
