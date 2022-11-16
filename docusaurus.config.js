@@ -57,13 +57,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Nav 1',
-          },
-          {to: '/', label: 'Nav 2', position: 'left'},
+
           {
             href: 'https://github.com/devopsdayschicago/dodchi-docs',
             label: 'GitHub',
@@ -73,43 +67,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'TBD',
-            items: [
-              {
-                label: 'XXX',
-                to: '/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/devopsdayschicago/dodchi-docs',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} devopsdays Chicago Built with Docusaurus.`,
       },
       prism: {
