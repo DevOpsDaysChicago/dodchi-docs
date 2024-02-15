@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# Pretix Configuration
+# Pretix (Ticketing)
 
-hi
+<IIcon icon="mdi:github" height="48" /> This is a GitHub icon.
