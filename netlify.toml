@@ -6,21 +6,11 @@
   # Default build command.
   command = "yarn build"
 
-[[plugins]]
-
-# Production context: all deploys from the Production branch
-# set in your site’s Branches settings in the UI will inherit
-# these settings. You can define environment variables
-# here but we recommend using the Netlify UI for sensitive
-# values to keep them out of your source repository.
 [context.production]
   environment = { NODE_VERSION = "18.04" }
 
-# Deploy Preview context: all deploys generated from
-# a pull/merge request will inherit these settings.
 [context.deploy-preview]
   publish = "dist/"
 
 [context.dev.environment]
   NODE_ENV = "development"
-
