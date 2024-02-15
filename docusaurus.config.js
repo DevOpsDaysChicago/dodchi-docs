@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -37,7 +38,8 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/devopsdayschi/dodchi-docs/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: './sidebars.js',
         },
         blog: false,
         theme: {
@@ -77,3 +79,28 @@ const config = {
 };
 
 module.exports = config;
+
+// export default {
+//   plugins: [
+//     [
+//       '@docusaurus/plugin-content-docs',
+//       {
+//         async sidebarItemsGenerator({
+//           defaultSidebarItemsGenerator,
+//           numberPrefixParser,
+//           item,
+//           version,
+//           docs,
+//           categoriesMetadata,
+//           isCategoryIndex,
+//         }) {
+//           // Example: return an hardcoded list of static sidebar items
+//           return [
+//             {type: 'doc', id: 'doc1'},
+//             {type: 'doc', id: 'doc2'},
+//           ];
+//         },
+//       },
+//     ],
+//   ],
+// };

@@ -1,0 +1,8 @@
+{
+  "label": "Pretix (Ticketing)",
+  "position": 99,
+  "link": {
+    "type": "generated-index",
+    "description": "Pretix is the ticketing system"
+  }
+}

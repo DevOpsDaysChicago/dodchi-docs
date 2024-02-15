@@ -38,7 +38,7 @@ Participation in the global devopsdays organizer Slack workspace is optional, bu
 
 ## Email
 
-All DevOpsDays Chicago organizers are set up with a Google Apps account under the devopsdayschi.org domain. It is at your discretion if you choose to manage your email in that inbox, or to forward mail sent to you to another email address. By default, all meeting invites for the team will be sent to your devopsdayschi.org email address/calendar, but you can feel free to forward those invites to the calendar of your choosing, or to invite an additional calendar of your choosing to that invite. The devopsdays.org email aliases (including <chicago@devopsdays.org>, etc) will only forward to your devopsdayschi.org email address.
+All DevOpsDays Chicago organizers are set up with a Google Apps account under the devopsdayschi.org domain. It is at your discretion if you choose to manage your email in that inbox, or to forward mail sent to you to another email address. By default, all meeting invites for the team will be sent to your devopsdayschi.org email address/calendar, but you can feel free to forward those invites to the calendar of your choosing, or to invite an additional calendar of your choosing to that invite. The devopsdays.org email aliases (including `chicago@devopsdays.org`, etc) will only forward to your devopsdayschi.org email address.
 
 Regardless of how you choose to manage this email, the following expectations exist:
 

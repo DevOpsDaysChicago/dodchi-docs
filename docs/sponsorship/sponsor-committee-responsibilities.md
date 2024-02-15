@@ -8,9 +8,9 @@ sidebar_position: 3
 
 - [Follow templates in Drive](https://drive.google.com/open?id=1eNnu2klIXmfJzl0H4p8IE3RXXCzkNiBZQ3sNjDyVZQ4). If in doubt, chat with other organizers in Slack
 
-- Reply to the email, cc sponsorships <chicago-sponsors@devopsdays.org> for transparency
+- Reply to the email, cc sponsorships `chicago-sponsors@devopsdays.org` for transparency
 
-- To pay, they can pay directly via the website using a credit card, or to create an invoice and/or get a new W9 email Laura: <laura@conferenceops.com>
+- To pay, they can pay directly via the website using a credit card, or to create an invoice and/or get a new W9 email Laura: `laura@conferenceops.com`
 
 - Ask for a hi-res logo for website / slides
 
@@ -20,7 +20,7 @@ sidebar_position: 3
 
 ## Contact previous sponsors until you hear "no"
 
-- Work through a list in Trello, such as "2020 new / needs work 🕵🏻‍♀: <https://trello.com/b/RYTq2DG2/sponsorship>
+- Work through a list in Trello, such as "2020 new / needs work 🕵🏻‍♀: https://trello.com/b/RYTq2DG2/sponsorship
 
 - [Follow templates in Drive](https://drive.google.com/open?id=1eNnu2klIXmfJzl0H4p8IE3RXXCzkNiBZQ3sNjDyVZQ4). If in doubt, chat with other organizers in Slack
 
@@ -44,7 +44,7 @@ sidebar_position: 3
 
 - [Follow templates in Drive](https://drive.google.com/open?id=1eNnu2klIXmfJzl0H4p8IE3RXXCzkNiBZQ3sNjDyVZQ4). If in doubt, chat with other organizers in Slack
 
-- Reply to the email, cc sponsorships chicago-sponsors@devopsdays.org for transparency
+- Reply to the email, cc sponsorships `chicago-sponsors@devopsdays.org` for transparency
 
 - Follow up when CFP is open and ask for local submissions
 
@@ -54,7 +54,7 @@ sidebar_position: 3
 
 - Specify only what comes with the sponsorship and do not negotiate for special deals.
 
-- Remind sponsors repeatedly about global DevOpsDays rules such as no sponsored talks and contact information is never shared. See <https://devopsdays.org/organizing> for more.
+- Remind sponsors repeatedly about global DevOpsDays rules such as no sponsored talks and contact information is never shared. See https://devopsdays.org/organizing for more.
 
 - Be consistent about what comes with sponsorships.
 
