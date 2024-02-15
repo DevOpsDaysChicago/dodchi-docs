@@ -10,7 +10,7 @@
   environment = { NODE_VERSION = "18.04" }
 
 [context.deploy-preview]
-  publish = "dist/"
+  publish = "/build"
 
 [context.dev.environment]
   NODE_ENV = "development"
