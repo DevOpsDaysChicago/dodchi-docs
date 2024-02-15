@@ -7,8 +7,8 @@ const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'devopsdays Chicago Runbooks',
-  tagline: 'Documentation for running the devopsdays Chicago event',
+  title: 'DevOpsDays Chicago Runbooks',
+  tagline: 'Documentation for running the DevOpsDays Chicago event',
   url: 'https://docs.devopsdayschi.org',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -20,9 +20,6 @@ const config = {
   organizationName: 'devopsdayschicago', // Usually your GitHub org/user name.
   projectName: 'dodchi-docs', // Usually your repo name.
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -35,10 +32,8 @@ const config = {
       ({
         docs: {
           routeBasePath: '/', // Serve the docs at the site's root
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/devopsdayschi/dodchi-docs/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/devopsdayschi/dodchi-docs/tree/main/packages/create-docusaurus/templates/shared/',
           sidebarPath: './sidebars.js',
         },
         blog: false,
@@ -52,11 +47,19 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // announcementBar: {
+      //   id: "in_progress",
+      //   content:
+      //     "This is a work in progress!",
+      //   backgroundColor: "fafbfc",
+      //   textColor: '#091E42',
+      //   isCloseable: false,
+      // },
       navbar: {
         title: 'devopsdays Chicago Runbooks',
         logo: {
           alt: 'devopsdays Chicago Runbooks Logo',
-          src: 'img/logo.svg',
+          src: 'img/chi-logo.png',
         },
         items: [
 
@@ -79,28 +82,3 @@ const config = {
 };
 
 module.exports = config;
-
-// export default {
-//   plugins: [
-//     [
-//       '@docusaurus/plugin-content-docs',
-//       {
-//         async sidebarItemsGenerator({
-//           defaultSidebarItemsGenerator,
-//           numberPrefixParser,
-//           item,
-//           version,
-//           docs,
-//           categoriesMetadata,
-//           isCategoryIndex,
-//         }) {
-//           // Example: return an hardcoded list of static sidebar items
-//           return [
-//             {type: 'doc', id: 'doc1'},
-//             {type: 'doc', id: 'doc2'},
-//           ];
-//         },
-//       },
-//     ],
-//   ],
-// };
