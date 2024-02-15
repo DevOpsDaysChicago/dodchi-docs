@@ -2,9 +2,7 @@
 sidebar_position: 9
 ---
 
-# Ticketing
-
-## Ticket types
+# Ticket types
 
 We create ticket types in the following categories, which are used to control "how many" tickets of each type, as well as potentially for branding on the badges themselves.
 
