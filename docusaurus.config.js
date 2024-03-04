@@ -11,6 +11,7 @@ const config = {
   tagline: 'Documentation for running the DevOpsDays Chicago event',
   url: 'https://docs.devopsdayschi.org',
   baseUrl: '/',
+  trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
