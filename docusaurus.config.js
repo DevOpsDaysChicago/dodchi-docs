@@ -4,7 +4,7 @@
 const {themes} = require('prism-react-renderer');
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
-const base = '/docusaurus-pr-preview-gh'
+const base = '/'
 const baseUrl = (process.env.PREVIEW_PATH)
   ? `${base}/${process.env.PREVIEW_PATH}`
   : `${base}`
@@ -14,7 +14,7 @@ const config = {
   title: 'DevOpsDays Chicago Runbooks',
   tagline: 'Documentation for running the DevOpsDays Chicago event',
   url: 'https://docs.devopsdayschi.org',
-  baseUrl: 'baseurl',
+  baseUrl: baseUrl,
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
