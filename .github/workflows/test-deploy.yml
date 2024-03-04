@@ -44,7 +44,7 @@ jobs:
         if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
         run: |
           yarn install --frozen-lockfile
-          run: yarn build
+          yarn build
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
