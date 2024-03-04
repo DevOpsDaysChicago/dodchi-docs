@@ -4,6 +4,12 @@ on:
   pull_request:
     branches:
       - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+concurrency: preview-${{ github.ref }}
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
@@ -24,4 +30,23 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Test build website
         run: yarn build
-        
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: yarn
+      - name: Install and Build
+        if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+        run: |
+          yarn install --frozen-lockfile
+          run: yarn build
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./build/
